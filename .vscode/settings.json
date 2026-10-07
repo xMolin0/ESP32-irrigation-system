@@ -1,0 +1,20 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.portWin": "COM7",
+  "idf.currentSetup": "/Users/xaviermolina/.espressif/v5.5.3/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "clangd.path": "/Users/xaviermolina/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/xaviermolina/Downloads/ssl_mutual_auth-2/build"
+  ],
+  "idf.flashType": "UART",
+  "idf.monitorPort": "/dev/tty.usbserial-120",
+  "idf.port": "/dev/tty.usbserial-1110"
+}
